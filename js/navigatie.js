@@ -12,6 +12,7 @@ setInterval(function(){
     sussyamogus[i].style.width = widthNav * 0.25;
   }
 }, 1000);
+
 alert(width)
 alert(widthNav)
 */

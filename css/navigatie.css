@@ -9,23 +9,25 @@
 
 :root {
   --background: #272727;
-  --heightNav: 30px;
+  --widthNav: 400px;
+  --heightNav: 40px;
   --color1: #fddb3a;
   --color2: #ffffff;
 
 }
 
 .navMenu {
-  width: 400px;
+  width: var(--widthNav);;
+  height: var(--heightNav);;
   position: fixed;
-  top: 10%;
+  top: var(--heightNav);;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .navMenu a {
-  width: 24.2%;
+  width: 24.1%;
   text-align: center;
   color: #f6f4e6;
   text-decoration: none;

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/opmaak.css">
     <link rel="stylesheet" href="css/navigatie.css">
+    <link rel="stylesheet" href="css/searchbar.css">
     <title>?</title>
   </head>
   <body>
@@ -13,10 +14,25 @@
         <a class="navLink" href="#">Blog</a>
         <a class="navLink" href="#">Work</a>
         <a class="navLink" href="#">About</a>
+        <div class = "search">
         <div class="dot"></div>
       </nav>
+
       <div id="nav"></div>
-      <script type="text/javascript" src="js/navigatie.js"></script>
-    </body>
+
+
+
+      <div class="search-wrapper">
+    <input type="search" id="search" data-search>
+  </div>
+  <div class="user-cards" data-user-cards-container></div>
+  <template data-user-template>
+    <div class="card">
+      <div class="header" data-header></div>
+      <div class="body" data-body></div>
+    </div>
+  </template>
+  <script type="text/javascript" src="js/navigatie.js"></script>
+  <script type="text/javascript" src="js/searchbar.js"></script>
+  </body>
 </html>
-/
