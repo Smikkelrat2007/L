@@ -257,3 +257,110 @@ fetch("")
       return { name: user.name, email: user.email, element: card }
     })
   })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [
+  {
+    "id": 1,
+    "name": "broun_pants_super_cool_:)",
+    "img1": "Bret",
+    "img2": "Bret",
+    "img3": "Bret",
+    "img4": "Bret",
+    "img5": "Bret",
+    "img6": "Bret",
+    "img7": "Bret",
+    "img8": "Bret",
+    "img9": "Bret",
+    "img10": "Bret",
+    "email": "Sincereapril.biz",
+    "filters": {
+      "garment": "long_pants",
+      "color": "broun",
+      "color_rgb": "rgb(148,109,41)",
+      "size": "150",
+      "gender": "man",
+      "type": "cargo",
+      "price": "50",
+      "material": "flanel",
+    }
+  }
+  ]

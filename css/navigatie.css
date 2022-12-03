@@ -19,7 +19,7 @@
 .navMenu {
   width: var(--widthNav);;
   height: var(--heightNav);;
-  position: fixed;
+  position: relative;
   top: var(--heightNav);;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);

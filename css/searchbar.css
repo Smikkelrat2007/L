@@ -1,11 +1,19 @@
+:root {
+  --background: #272727;
+  --color1: #fddb3a;
+  --color2: #ffffff;
+  --fontsizeNav: 16px;
+}
 .search-wrapper {
   display: flex;
   flex-direction: column;
   gap: .25rem;
+  margin-top: 20px;
 }
 #search {
-  background-color: black;]
-  color: black;
+  background-color: black;
+  color: white;
+
 }
 input {
   font-size: 1rem;
@@ -13,7 +21,8 @@ input {
 
 .user-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  height: 500px;
   gap: .25rem;
   margin-top: 1rem;
 }
@@ -31,8 +40,95 @@ input {
 .card > .body {
   font-size: .8rem;
   color: #777;
+
+}
+.body {
+  align-items: center;
+  width: 90%;
+}
+.card > .money {
+  color: black;
 }
 
 .hide {
   display: none;
+}
+.data-header {
+  color: grey;
+}
+.body-wrapper {
+  display: flex;
+  justify-content: center
+}
+#nav {
+  height: 70px;
+  background-color: var(--background);;
+  position:relative;
+}
+.price {
+  text-align: center;
+}
+#data-body:hover{ animation: fadeOut1 10s; }
+#data-body2:hover{ animation: fadeOut2 10s; }
+#data-body3:hover{ animation: fadeOut3 10s; }
+#data-body4:hover{ animation: fadeOut4 10s; }
+#data-body5:hover{ animation: fadeOut5 10s; }
+#data-body6:hover{ animation: fadeOut6 10s; }
+#data-body7:hover{ animation: fadeOut7 10s; }
+#data-body8:hover{ animation: fadeOut8 10s; }
+#data-body9:hover{ animation: fadeOut9 10s; }
+#data-body10:hover{ animation: fadeOut10 10s; }
+
+@keyframes fadeOut1 {
+  0% { opacity: 1; }
+  10% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut2 {
+  0% { opacity: 1; }
+  10% { opacity: 1; }
+  20% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut3 {
+  0% { opacity: 1; }
+  20% { opacity: 1; }
+  30% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut4 {
+  0% { opacity: 1; }
+  30% { opacity: 1; }
+  40% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut5 {
+  0% { opacity: 1; }
+  40% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut6 {
+  50% { opacity: 1; }
+  60% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut7 {
+  60% { opacity: 1; }
+  70% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut8 {
+  70% { opacity: 1; }
+  80% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut9 {
+  80% { opacity: 1;}
+  90% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@keyframes fadeOut10 {
+  90% { opacity: 1; }
+  100% { opacity: 0; }
 }

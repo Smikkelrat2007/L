@@ -6,260 +6,244 @@ let users = []
 const data = [
 {
   "id": 1,
-  "name": "Leanne Graham",
-  "username": "Bret",
-  "email": "Sincere@april.biz",
-  "address":
-  {
-    "street": "Kulas Light",
-    "suite": "Apt. 556",
-    "city": "Gwenborough",
-    "zipcode": "92998-3874",
-    "geo":
-    {
-      "lat": "-37.3159",
-      "lng": "81.1496"
+  "name": "boris is erg mooi en ik zou zn pik afzuigen als hij dat wou... maar ik geloof dat hij me nu haat omdat ik zn pik is een keer probeerde te zuien;()",
+  "img1": "https://media.indebuurt.nl/deventer/2020/08/15101850/foto-sander-claasen-1024x683.jpg",
+  "img2": "https://fotoaanjemuur.nl/411/leidsegracht-amsterdam.jpg",
+  "img3": "Bret",
+  "img4": "Bret",
+  "img5": "Bret",
+  "img6": "Bret",
+  "img7": "Bret",
+  "img8": "Bret",
+  "img9": "Bret",
+  "img10": "Bret",
+  "email": "",
+  "filters": {
+    "garment": "long_pants",
+    "color": "broun",
+    "size": "150",
+    "gender": "man",
+    "type": "cargo",
+    "price": "50",
+    "material": "flanel",
+    "rgb_colors": {
+      "color_rgb1": "rgb(148,109,41)"
     }
-  },
-  "phone": "1-770-736-8031 x56442",
-  "website": "hildegard.org",
-  "company":
-  {
-    "name": "Romaguera-Crona",
-    "catchPhrase": "Multi-layered client-server neural-net",
-    "bs": "harness real-time e-markets"
   }
-},
+}   ,
 {
   "id": 2,
-  "name": "Ervin Howell",
-  "username": "Antonette",
-  "email": "Shanna@melissa.tv",
-  "address": {
-    "street": "Victor Plains",
-    "suite": "Suite 879",
-    "city": "Wisokyburgh",
-    "zipcode": "90566-7771",
-    "geo":
-    {
-      "lat": "-43.9509",
-      "lng": "-34.4618"
+  "name": "hoi",
+  "img1": "https://media.indebuurt.nl/deventer/2020/08/15101850/foto-sander-claasen-1024x683.jpg",
+  "img2": "Bret",
+  "img3": "Bret",
+  "img4": "Bret",
+  "img5": "Bret",
+  "img6": "Bret",
+  "img7": "Bret",
+  "img8": "Bret",
+  "img9": "Bret",
+  "img10": "Bret",
+  "email": "",
+  "filters": {
+    "garment": "long_pants",
+    "color": "broun",
+    "size": "150",
+    "gender": "man",
+    "type": "cargo",
+    "price": "50",
+    "material": "flanel",
+    "rgb_colors": {
+      "color_rgb1": "rgb(148,109,41)"
     }
-  },
-  "phone": "010-692-6593 x09125",
-  "website": "anastasia.net",
-  "company":
-  {
-    "name": "Deckow-Crist",
-    "catchPhrase": "Proactive didactic contingency",
-    "bs": "synergize scalable supply-chains"
   }
 },
 {
   "id": 3,
-  "name": "Clementine Bauch",
-  "username": "Samantha",
-  "email": "Nathan@yesenia.net",
-  "address":
-  {
-    "street": "Douglas Extension",
-    "suite": "Suite 847",
-    "city": "McKenziehaven",
-    "zipcode": "59590-4157",
-    "geo": {
-      "lat": "-68.6102",
-      "lng": "-47.0653"
+  "name": "wowie",
+  "img1": "https://media.indebuurt.nl/deventer/2020/08/15101850/foto-sander-claasen-1024x683.jpg",
+  "img2": "Bret",
+  "img3": "Bret",
+  "img4": "Bret",
+  "img5": "Bret",
+  "img6": "Bret",
+  "img7": "Bret",
+  "img8": "Bret",
+  "img9": "Bret",
+  "img10": "Bret",
+  "email": "",
+  "filters": {
+    "garment": "long_pants",
+    "color": "broun",
+    "size": "150",
+    "gender": "man",
+    "type": "cargo",
+    "price": "50",
+    "material": "flanel",
+    "rgb_colors": {
+      "color_rgb1": "rgb(148,109,41)"
     }
-  },
-  "phone": "1-463-123-4447",
-  "website": "ramiro.info",
-  "company":
-  {
-    "name": "Romaguera-Jacobson",
-    "catchPhrase": "Face to face bifurcated interface",
-    "bs": "e-enable strategic applications"
   }
 },
 {
   "id": 4,
-  "name": "Patricia Lebsack",
-  "username": "Karianne",
-  "email": "Julianne.OConner@kory.org",
-  "address":
-  {
-    "street": "Hoeger Mall",
-    "suite": "Apt. 692",
-    "city": "South Elvis",
-    "zipcode": "53919-4257",
-    "geo":
-    {
-      "lat": "29.4572",
-      "lng": "-164.2990"
+  "name": "berta",
+  "img1": "https://media.indebuurt.nl/deventer/2020/08/15101850/foto-sander-claasen-1024x683.jpg",
+  "img2": "Bret",
+  "img3": "Bret",
+  "img4": "Bret",
+  "img5": "Bret",
+  "img6": "Bret",
+  "img7": "Bret",
+  "img8": "Bret",
+  "img9": "Bret",
+  "img10": "Bret",
+  "email": "",
+  "filters": {
+    "garment": "long_pants",
+    "color": "broun",
+    "size": "150",
+    "gender": "man",
+    "type": "cargo",
+    "price": "50",
+    "material": "flanel",
+    "rgb_colors": {
+      "color_rgb1": "rgb(148,109,41)"
     }
-  },
-  "phone": "493-170-9623 x156",
-  "website": "kale.biz",
-  "company":
-  {
-    "name": "Robel-Corkery",
-    "catchPhrase": "Multi-tiered zero tolerance productivity",
-    "bs": "transition cutting-edge web services"
   }
 },
 {
   "id": 5,
-  "name": "Chelsey Dietrich",
-  "username": "Kamren",
-  "email": "Lucio_Hettinger@annie.ca",
-  "address":
-  {
-    "street": "Skiles Walks",
-    "suite": "Suite 351",
-    "city": "Roscoeview",
-    "zipcode": "33263",
-    "geo":
-    {
-      "lat": "-31.8129",
-      "lng": "62.5342"
+  "name": "gert",
+  "img1": "https://media.indebuurt.nl/deventer/2020/08/15101850/foto-sander-claasen-1024x683.jpg",
+  "img2": "Bret",
+  "img3": "Bret",
+  "img4": "Bret",
+  "img5": "Bret",
+  "img6": "Bret",
+  "img7": "Bret",
+  "img8": "Bret",
+  "img9": "Bret",
+  "img10": "Bret",
+  "email": "",
+  "filters": {
+    "garment": "long_pants",
+    "color": "broun",
+    "size": "150",
+    "gender": "man",
+    "type": "cargo",
+    "price": "50",
+    "material": "flanel",
+    "rgb_colors": {
+      "color_rgb1": "rgb(148,109,41)"
     }
-  },
-  "phone": "(254)954-1289",
-  "website": "demarco.info",
-  "company":
-  {
-    "name": "Keebler LLC",
-    "catchPhrase": "User-centric fault-tolerant solution",
-    "bs": "revolutionize end-to-end systems"
   }
 },
 {
   "id": 6,
-  "name": "Mrs. Dennis Schulist",
-  "username": "Leopoldo_Corkery",
-  "email": "Karley_Dach@jasper.info",
-  "address":
-  {
-    "street": "Norberto Crossing",
-    "suite": "Apt. 950",
-    "city": "South Christy",
-    "zipcode": "23505-1337",
-    "geo":
-    {
-      "lat": "-71.4197",
-      "lng": "71.7478"
+  "name": "hihihiha",
+  "img1": "https://media.indebuurt.nl/deventer/2020/08/15101850/foto-sander-claasen-1024x683.jpg",
+  "img2": "Bret",
+  "img3": "Bret",
+  "img4": "Bret",
+  "img5": "Bret",
+  "img6": "Bret",
+  "img7": "Bret",
+  "img8": "Bret",
+  "img9": "Bret",
+  "img10": "Bret",
+  "email": "",
+  "filters": {
+    "garment": "long_pants",
+    "color": "broun",
+    "size": "150",
+    "gender": "man",
+    "type": "cargo",
+    "price": "50",
+    "material": "flanel",
+    "rgb_colors": {
+      "color_rgb1": "rgb(148,109,41)"
     }
-  },
-  "phone": "1-477-935-8478 x6430",
-  "website": "ola.org",
-  "company":
-  {
-    "name": "Considine-Lockman",
-    "catchPhrase": "Synchronised bottom-line interface",
-    "bs": "e-enable innovative applications"
+  }
+},{
+  "id": 2,
+  "name": "boris zwietink zn hele mooie ...... wenkbrouwen",
+  "img1": "https://media.indebuurt.nl/deventer/2020/08/15101850/foto-sander-claasen-1024x683.jpg",
+  "img2": "Bret",
+  "img3": "Bret",
+  "img4": "Bret",
+  "img5": "Bret",
+  "img6": "Bret",
+  "img7": "Bret",
+  "img8": "Bret",
+  "img9": "Bret",
+  "img10": "Bret",
+  "email": "",
+  "filters": {
+    "garment": "long_pants",
+    "color": "broun",
+    "size": "150",
+    "gender": "man",
+    "type": "cargo",
+    "price": "50",
+    "material": "flanel",
+    "rgb_colors": {
+      "color_rgb1": "rgb(148,109,41)"
+    }
   }
 },
 {
-  "id": 7,
-  "name": "Kurtis Weissnat",
-  "username": "Elwyn.Skiles",
-  "email": "Telly.Hoeger@billy.biz",
-  "address":
-  {
-    "street": "Rex Trail",
-    "suite": "Suite 280",
-    "city": "Howemouth",
-    "zipcode": "58804-1099",
-    "geo":
-    {
-      "lat": "24.8918",
-      "lng": "21.8984"
+  "id": 3,
+  "name": "je bent echt heel erg mooi :)",
+  "img1": "https://media.indebuurt.nl/deventer/2020/08/15101850/foto-sander-claasen-1024x683.jpg",
+  "img2": "Bret",
+  "img3": "Bret",
+  "img4": "Bret",
+  "img5": "Bret",
+  "img6": "Bret",
+  "img7": "Bret",
+  "img8": "Bret",
+  "img9": "Bret",
+  "img10": "Bret",
+  "email": "",
+  "filters": {
+    "garment": "long_pants",
+    "color": "broun",
+    "size": "150",
+    "gender": "man",
+    "type": "cargo",
+    "price": "50",
+    "material": "flanel",
+    "rgb_colors": {
+      "color_rgb1": "rgb(148,109,41)"
     }
-  },
-  "phone": "210.067.6132",
-  "website": "elvis.io",
-  "company":
-  {
-    "name": "Johns Group",
-    "catchPhrase": "Configurable multimedia task-force",
-    "bs": "generate enterprise e-tailers"
   }
 },
 {
-  "id": 8,
-  "name": "Nicholas Runolfsdottir V",
-  "username": "Maxime_Nienow",
-  "email": "Sherwood@rosamond.me",
-  "address":
-  {
-    "street": "Ellsworth Summit",
-    "suite": "Suite 729",
-    "city": "Aliyaview",
-    "zipcode": "45169",
-    "geo":
-    {
-      "lat": "-14.3990",
-      "lng": "-120.7677"
+  "id": 4,
+  "name": "berta",
+  "img1": "https://media.indebuurt.nl/deventer/2020/08/15101850/foto-sander-claasen-1024x683.jpg",
+  "img2": "Bret",
+  "img3": "Bret",
+  "img4": "Bret",
+  "img5": "Bret",
+  "img6": "Bret",
+  "img7": "Bret",
+  "img8": "Bret",
+  "img9": "Bret",
+  "img10": "Bret",
+  "email": "",
+  "filters": {
+    "garment": "long_pants",
+    "color": "broun",
+    "size": "150",
+    "gender": "man",
+    "type": "cargo",
+    "price": "50",
+    "material": "flanel",
+    "rgb_colors": {
+      "color_rgb1": "rgb(148,109,41)"
     }
-  },
-  "phone": "586.493.6943 x140",
-  "website": "jacynthe.com",
-  "company":
-  {
-    "name": "Abernathy Group",
-    "catchPhrase": "Implemented secondary concept",
-    "bs": "e-enable extensible e-tailers"
-  }
-},
-{
-  "id": 9,
-  "name": "Glenna Reichert",
-  "username": "Delphine",
-  "email": "Chaim_McDermott@dana.io",
-  "address":
-  {
-    "street": "Dayna Park",
-    "suite": "Suite 449",
-    "city": "Bartholomebury",
-    "zipcode": "76495-3109",
-    "geo":
-    {
-      "lat": "24.6463",
-      "lng": "-168.8889"
-    }
-  },
-  "phone": "(775)976-6794 x41206",
-  "website": "conrad.com",
-  "company":
-  {
-    "name": "Yost and Sons",
-    "catchPhrase": "Switchable contextually-based project",
-    "bs": "aggregate real-time technologies"
-  }
-},
-{
-  "id": 10,
-  "name": "Clementina DuBuque",
-  "username": "Moriah.Stanton",
-  "email": "Rey.Padberg@karina.biz",
-  "address":
-  {
-    "street": "Kattie Turnpike",
-    "suite": "Suite 198",
-    "city": "Lebsackbury",
-    "zipcode": "31428-2261",
-    "geo":
-    {
-      "lat": "-38.2386",
-      "lng": "57.2232"
-    }
-  },
-  "phone": "024-648-3804",
-  "website": "ambrose.net",
-  "company":
-  {
-    "name": "Hoeger LLC",
-    "catchPhrase": "Centralized empowering task-force",
-    "bs": "target end-to-end models"
   }
 }
 ]
@@ -274,16 +258,29 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-
 selectData = (data) => {
   users = data.map(user => {
     const card = userCardTemplate.content.cloneNode(true).children[0]
+
     const header = card.querySelector("[data-header]")
     const body = card.querySelector("[data-body]")
+    const money = card.querySelector("[data-price]")
+    const color_rgb = card.querySelector("[data-color_rgb]")
+
+    color_rgb.style.backgroundColor = user.filters.rgb_colors.color_rgb1;
+    color_rgb.style.border = "solid 5px black";
+    color_rgb.style.width = "30px";
+    color_rgb.style.height = "30px";
+
+
+
+
+
     header.textContent = user.name
-    body.textContent = user.email
+    money.textContent = user.filters.price + "$"
+    body.src = user.img1
     userCardContainer.append(card)
-    return { name: user.name, email: user.email, element: card }
+    return { name: user.name, email: user.email, money: user.price, element: card }
   })
 }
 selectData(data)
