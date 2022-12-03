@@ -7,87 +7,81 @@
   box-sizing: border-box;
 }
 
-:root {
-  --background: #272727;
-  --widthNav: 400px;
-  --heightNav: 40px;
-  --color1: #fddb3a;
-  --color2: #ffffff;
+nav {
 
-}
-
-.navMenu {
-  width: var(--widthNav);;
-  height: var(--heightNav);;
-  position: relative;
+  position: absolute;
   top: var(--heightNav);;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
-.navMenu a {
-  width: 24.1%;
+nav a {
+  width: 100px;
+  display:inline-block;
   text-align: center;
   color: #f6f4e6;
   text-decoration: none;
   font-size: 1.2em;
   text-transform: uppercase;
   font-weight: 500;
-  display: inline-block;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   height: var(heightNav);;
 }
 
-.navMenu a:hover {
+nav a:hover {
   color: var(--color1);;
 }
 
-.navMenu .dot {
+nav .dot {
+  display: inline-block;
   width: 6px;
   height: 6px;
   background: var(--color1);;
   border-radius: 50%;
   opacity: 0;
-  -webkit-transform: translateX(46px);
-  transform: translateX(46px);
+  -webkit-transform: translateX(50px);
+  transform: translateX(50px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
-.navMenu a:nth-child(1):hover ~ .dot {
-  -webkit-transform: translateX(46px);
-  transform: translateX(46px);
+nav a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(50px);
+  transform: translateX(50px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+nav a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(153px);
+  transform: translateX(153px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
-.navMenu a:nth-child(2):hover ~ .dot {
-  -webkit-transform: translateX(148px);
-  transform: translateX(148px);
+nav a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(256px);
+  transform: translateX(256px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
-.navMenu a:nth-child(3):hover ~ .dot {
-  -webkit-transform: translateX(249px);
-  transform: translateX(249px);
+nav a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(359px);
+  transform: translateX(359px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
-.navMenu a:nth-child(4):hover ~ .dot {
-  -webkit-transform: translateX(350px);
-  transform: translateX(350px);
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-}
+
 #nav {
   width: 100%;
   height: var(--heightNav);
+}
+nav {
+  display: inline;
 }

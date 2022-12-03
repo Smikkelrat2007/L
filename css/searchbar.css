@@ -1,18 +1,15 @@
-:root {
-  --background: #272727;
-  --color1: #fddb3a;
-  --color2: #ffffff;
-  --fontsizeNav: 16px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 .search-wrapper {
   display: flex;
   flex-direction: column;
   gap: .25rem;
   margin-top: 20px;
+  place-items: center;
 }
 #search {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: grey;
+  width: 90%;
 
 }
 input {
@@ -31,10 +28,13 @@ input {
   border: 1px solid black;
   background-color: white;
   padding: .5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .card > .header {
   margin-bottom: .25rem;
+  text-align: center;
+  font-weight: 500;
 }
 
 .card > .body {
@@ -67,68 +67,4 @@ input {
 }
 .price {
   text-align: center;
-}
-#data-body:hover{ animation: fadeOut1 10s; }
-#data-body2:hover{ animation: fadeOut2 10s; }
-#data-body3:hover{ animation: fadeOut3 10s; }
-#data-body4:hover{ animation: fadeOut4 10s; }
-#data-body5:hover{ animation: fadeOut5 10s; }
-#data-body6:hover{ animation: fadeOut6 10s; }
-#data-body7:hover{ animation: fadeOut7 10s; }
-#data-body8:hover{ animation: fadeOut8 10s; }
-#data-body9:hover{ animation: fadeOut9 10s; }
-#data-body10:hover{ animation: fadeOut10 10s; }
-
-@keyframes fadeOut1 {
-  0% { opacity: 1; }
-  10% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@keyframes fadeOut2 {
-  0% { opacity: 1; }
-  10% { opacity: 1; }
-  20% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@keyframes fadeOut3 {
-  0% { opacity: 1; }
-  20% { opacity: 1; }
-  30% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@keyframes fadeOut4 {
-  0% { opacity: 1; }
-  30% { opacity: 1; }
-  40% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@keyframes fadeOut5 {
-  0% { opacity: 1; }
-  40% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@keyframes fadeOut6 {
-  50% { opacity: 1; }
-  60% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@keyframes fadeOut7 {
-  60% { opacity: 1; }
-  70% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@keyframes fadeOut8 {
-  70% { opacity: 1; }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@keyframes fadeOut9 {
-  80% { opacity: 1;}
-  90% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@keyframes fadeOut10 {
-  90% { opacity: 1; }
-  100% { opacity: 0; }
 }

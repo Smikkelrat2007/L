@@ -1,0 +1,31 @@
+
+table {
+  display: inline-block;
+  background-color: white;
+  border:solid white 1px;
+  border-radius: 7px;
+  text-align: center;
+  margin-right: 10px;
+}
+td, th {
+  border: solid white 1px;
+  border-radius: 5px;
+  background-color: #272727;
+  padding: 5px;
+}
+ul{
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  top: -50px;
+}
+#tl_article {
+  margin-top: 25px;
+  width: 100%;
+  color: white;
+  transition: all .5s;
+  display: inline;
+}
+#tl_article:hover {
+  color: #fddb3a;
+}
